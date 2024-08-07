@@ -83,7 +83,7 @@ def create_card(args):
     'desc': args.desc,
     }
 
-    # Check is the user wants to add any labels, before adding them to the parameters
+    # Check if the user wants to add any labels, before adding them to the parameters
     if args.labels:
         params['idLabels'] = str(args.labels)
 
